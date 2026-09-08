@@ -1,0 +1,17 @@
+﻿check	value
+cumulative_rows	14178
+v019_overlay	14/14
+inherited_unchanged	242
+mirror_bad	0
+reextract_match	14178/14178
+story_coverage	13828/13828
+font_target_codepoints	4149
+dangerous_payload	0
+expected_payload_files	256
+romfs_files	256
+atmosphere_files	256
+zip_files	256
+zip_size	12119299
+sha256	B0ECF8E42C43F19DAC3FF713FA178F6D4D1902C1B5462490CA00556C54B792DD
+zip_bad	0
+errors	0

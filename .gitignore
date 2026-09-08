@@ -1,0 +1,77 @@
+﻿# Default deny: local project also contains full game/extracted resources.
+/*
+
+# Repository metadata
+!/.gitignore
+!/README.md
+!/GITHUB_BACKUP.md
+
+# Final release patch (one canonical copy; archive excluded)
+!/汉化补丁/
+/汉化补丁/*
+!/汉化补丁/09_release/
+/汉化补丁/09_release/*
+!/汉化补丁/09_release/v019-final-complete/
+!/汉化补丁/09_release/v019-final-complete/**
+/汉化补丁/09_release.rar
+
+# Source-level history
+!/永恒少女汉化历史文件/
+/永恒少女汉化历史文件/*
+
+# Documentation
+!/永恒少女汉化历史文件/docs/
+!/永恒少女汉化历史文件/docs/**
+
+# Build/QA scripts
+!/永恒少女汉化历史文件/04_scripts/
+!/永恒少女汉化历史文件/04_scripts/**
+/永恒少女汉化历史文件/04_scripts/__pycache__/
+
+# Final text/alignment data
+!/永恒少女汉化历史文件/03_text/
+/永恒少女汉化历史文件/03_text/*
+!/永恒少女汉化历史文件/03_text/alignment_samples/
+!/永恒少女汉化历史文件/03_text/alignment_samples/**
+!/永恒少女汉化历史文件/03_text/matched/
+/永恒少女汉化历史文件/03_text/matched/*
+!/永恒少女汉化历史文件/03_text/matched/pc-ns-alignment-v3-jp.tsv
+!/永恒少女汉化历史文件/03_text/translated/
+/永恒少女汉化历史文件/03_text/translated/*
+!/永恒少女汉化历史文件/03_text/translated/final-all-text-v3-cumulative.tsv
+!/永恒少女汉化历史文件/03_text/translated/final-v3-reextract.tsv
+!/永恒少女汉化历史文件/03_text/translated/final-v3-font-coverage.tsv
+!/永恒少女汉化历史文件/03_text/translated/core-glossary-v1.tsv
+!/永恒少女汉化历史文件/03_text/translated/random-audit-final-holdout-483-seed20260908.tsv
+!/永恒少女汉化历史文件/03_text/translated/random-audit-final2-holdout-398-seed20260909.tsv
+!/永恒少女汉化历史文件/03_text/translated/random-audit-findings-v1.tsv
+
+# Final QA only; do not duplicate v019 payload tree/ZIP from 05_build
+!/永恒少女汉化历史文件/05_build/
+/永恒少女汉化历史文件/05_build/*
+!/永恒少女汉化历史文件/05_build/v019-final-complete/
+/永恒少女汉化历史文件/05_build/v019-final-complete/*
+!/永恒少女汉化历史文件/05_build/v019-final-complete/qa-final.tsv
+
+# Never commit full game/container/resources/PC installation/keys/archives/venvs
+*.nsp
+*.nsz
+*.nca
+*.xci
+*.xcz
+*.tik
+*.cert
+*.keys
+prod.keys
+*.key
+*.pem
+*.pfx
+*.p12
+.env
+.env.*
+*.rar
+*.7z
+*.zip
+.venv*/
+__pycache__/
+*.pyc
